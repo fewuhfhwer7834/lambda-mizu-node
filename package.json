@@ -1,0 +1,17 @@
+{
+  "name": "zs-lambda-mizu-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ProxyHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "deploy:mizu":"bash ./bash/deploy_mizn.sh",
+      "call:mizu":"bash ./bash/call_mizu.sh"
+  },
+  "author": "Tatsuyoshi Mizuno",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.104.0",
+    "bluebird": "^3.5.0"
+  }
+}
